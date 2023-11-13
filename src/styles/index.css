@@ -1,3 +1,33 @@
-/* 
-    General Styles
-*/
+.navbar{
+    background-color: black;
+    padding: 1rem 0;
+    display: flex;
+    flex-flow:row nowrap ;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.navbar-link{
+    text-decoration: none; 
+}
+
+.navbar-h1{
+    color: #ffc107;
+    margin: 0 2rem;
+}
+
+.navbar-img{
+    width: 8rem;
+}
+
+.navbar-btn{
+    margin: 0 2rem 0;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
